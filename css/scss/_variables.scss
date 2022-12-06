@@ -24,29 +24,29 @@ $black:    #231F20;
 
 /* Theme Colors */
 $red:      #A6192E;
-//
-//$colors: map-merge(
-//				$colors,
-//				(
-//						"red":      $red,
-//						"black":    $black,
-//						"white" :   $white,
-//				)
-//);
+
+$colors: map-merge(
+				$colors,
+				(
+						"red":      $red,
+						"black":    $black,
+						"white" :   $white,
+				)
+);
 
 /* /Theme Colors */
 
 // Assign some theme colors to Bootstrap colors
 $primary: $red;
 $secondary: $black;
-//
-//$theme-colors: map-merge(
-//				$theme-colors,
-//				(
-//						"primary":   $primary,
-//						"secondary": $secondary,
-//				)
-//);
+
+$theme-colors: map-merge(
+				$theme-colors,
+				(
+						"primary":   $primary,
+						"secondary": $secondary,
+				)
+);
 
 
 $body-color: $black;
@@ -124,17 +124,17 @@ GRID
 *********************/
 $grid-gutter-width : 60px;
 
-//$grid-breakpoints: map-merge( $grid-breakpoints,
-//		(
-//				xxl: 1400px
-//		)
-//);
-//
-//$container-max-widths: map-merge( $container-max-widths,
-//		(
-//				xxl: 1340px
-//		)
-//);
+$grid-breakpoints: map-merge( $grid-breakpoints,
+		(
+				xxl: 1400px
+		)
+);
+
+$container-max-widths: map-merge( $container-max-widths,
+		(
+				xxl: 1340px
+		)
+);
 
 
 
