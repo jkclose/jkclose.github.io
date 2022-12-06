@@ -1,0 +1,145 @@
+
+/*
+COLORS
+*********************/
+
+// Color system
+
+@import "../bootstrap/variables";
+// resetting color maps
+$colors: ();
+$colors: map-remove($colors);
+
+$white:    #FFFFFF;
+$gray-100: #F1F1F2;
+$gray-200: #E4E4F1;
+$gray-300: #D1D3D4;
+$gray-400: #C9C9E4;
+$gray-500: #BBBDC0;
+$gray-600: #9D9DA0;
+$gray-700: #7E7E80;
+$gray-800: #605E60;
+$gray-900: #413F40;
+$black:    #231F20;
+
+/* Theme Colors */
+$red:      #A6192E;
+
+$colors: map-merge(
+				$colors,
+				(
+						"red":      $red,
+						"black":    $black,
+						"white" :   $white,
+				)
+);
+
+/* /Theme Colors */
+
+// Assign some theme colors to Bootstrap colors
+$primary: $red;
+$secondary: $black;
+
+$theme-colors: map-merge(
+				$theme-colors,
+				(
+						"primary":   $primary,
+						"secondary": $secondary,
+				)
+);
+
+
+$body-color: $black;
+$link-color: $primary;
+$link-hover-color: $secondary;
+
+/*
+GLOBAL EFFECTS
+*********************/
+$enable-rounded: false;
+$enable-print-styles: false;
+$enable-caret: true;
+$border-radius: 0;
+
+
+/*
+TYPOGRAPHY
+*********************/
+@import url('//fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('//use.fontawesome.com/releases/v5.10.2/css/all.css');
+
+$font-awesome: "Font Awesome 5 Free";
+
+$font-family-base: 'Open Sans', sans-serif;
+
+$display-font: $font-family-base;
+$font-family-sans-serif: $font-family-base;
+$font-family-monospace: monospace;
+
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$font-size-lg: $font-size-base * 1.25;
+$font-size-sm: $font-size-base * .875;
+
+$headings-font-family: $display-font;
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2.125;
+$h3-font-size: $font-size-base * 1.5;
+$h4-font-size: $font-size-base;
+//$h5-font-size: ;
+//$h6-font-size: ;
+$display1-size: $font-size-base * 2.125;
+
+$yiq-text-dark: $body-color;
+$yiq-text-light: $white;
+$yiq-contrasted-threshold: 195;
+
+$font-weight-bolder: 600;
+
+/*
+CAROUSELS
+*********************/
+
+/*
+HR
+*********************/
+
+/*
+FORMS (applies to btn as well)
+*********************/
+
+/*
+BUTTONS
+*********************/
+$border-width: 3px;
+$border-radius: .5rem;
+$btn-padding-y: $spacer * .25;
+
+/*
+DROPDOWNS
+*********************/
+
+
+/*
+GRID
+*********************/
+$grid-gutter-width : 60px;
+
+$grid-breakpoints: map-merge( $grid-breakpoints,
+		(
+				xxl: 1400px
+		)
+);
+
+$container-max-widths: map-merge( $container-max-widths,
+		(
+				xxl: 1340px
+		)
+);
+
+
+
+/*
+MODALS
+*********************/
+$modal-backdrop-bg: $white;
+$modal-backdrop-opacity: 1;
