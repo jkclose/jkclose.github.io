@@ -1,7 +1,16 @@
 title: Jeremy Close | Web Development
+sass:
+  sass_dir: css
+  style:    compressed
+
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+
+collections:
+  projects:
+    output: true
+
