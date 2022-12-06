@@ -1,5 +1,5 @@
 ---
-layout: default
+title: My First Page
 ---
 
 # Portfolio
