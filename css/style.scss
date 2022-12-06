@@ -33,3 +33,15 @@ body {
 		color: $white;
 	}
 }
+
+/* loop based display */
+.items {
+	@include make-row();
+	margin-top: $spacer * 2;
+	margin-bottom: $spacer * 2;
+
+	.item {
+		@include make-col-ready();
+		@include make-col(1,2);
+	}
+}
