@@ -17,6 +17,11 @@ body {
 		flex: 1;
 		overflow: hidden;
 	}
+
+	> footer {
+		background: $gray-900;
+		color: $white;
+	}
 }
 
 /* loop based display */
