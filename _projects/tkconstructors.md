@@ -1,6 +1,6 @@
 ---
 title: TK Constructors Custom WordPress Theme
-url: https://tkconstructors.com
+project-url: https://tkconstructors.com
 category: WordPress
 ---
 

@@ -10,7 +10,8 @@ This is my portfolio index file.
         <div class="item">
             <h3>
                 <a href="{{ project.url }}">
-                    {{ project.title }}
+                    {{ project.title }}<br>
+                    {{ project.project-url }}
                 </a>
             </h3>
             <p>{{ project.content | markdownify }}</p>

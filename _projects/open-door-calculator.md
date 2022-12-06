@@ -1,7 +1,7 @@
 ---
 title: OpenDoor Health Services Custom Calculator
-url: https://www.opendoorhs.org/general-medical-fees-discounts
-category: 
+project-url: https://www.opendoorhs.org/general-medical-fees-discounts
+category: jquery
 ---
 
 This is the content.
