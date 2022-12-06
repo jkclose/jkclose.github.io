@@ -1,5 +1,5 @@
 ---
-title: My First Page
+page.title: My First Page
 ---
 
 # Portfolio
