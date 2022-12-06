@@ -4,12 +4,14 @@ title: Portfolio
 
 This is my portfolio index file.
 
-{% for project in site.projects %}
-<h2>
-    <a href="{{ project.url }}">
-        {{ project.title }}
-        {{ project.url }}
-    </a>
-</h2>
-<p>{{ project.content | markdownify }}</p>
-{% endfor %}
+{% if site.projects %}
+    <h2>{{ label }}</h2>
+    {% for project in site.projects %}
+    <h3>
+        <a href="{{ project.url }}">
+            {{ project.title }}
+        </a>
+    </h3>
+    <p>{{ project.content | markdownify }}</p>
+    {% endfor %}
+{% endif %}
