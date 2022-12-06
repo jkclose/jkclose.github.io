@@ -6,6 +6,20 @@
 
 /* add additional CSS rules below */
 
+/* main body */
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+
+	> main {
+		position: relative;
+		flex: 1;
+		overflow: hidden;
+	}
+}
+
+/* loop based display */
 .items {
 	@include make-row();
 
