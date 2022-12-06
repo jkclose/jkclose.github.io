@@ -4,19 +4,5 @@ title: Portfolio
 
 This is my portfolio index file.
 
-{% if site.projects %}
-    <div class="items">
-    {% for project in site.projects %}
-        <div class="item">
-            <h3>
-                <a href="{{ project.url }}">
-                    {{ project.title }}
-                </a>
-            </h3>
-            <p>{{ project.project-url }}</p>
-            <p>{{ project.category }}</p>
-            <p>{{ project.content | markdownify }}</p>
-        </div>
-    {% endfor %}
-    </div>
-{% endif %}
+
+{% include projects.html %}
