@@ -5,13 +5,16 @@ title: Portfolio
 This is my portfolio index file.
 
 {% if site.projects %}
-    <h2>{{ projects.label }}</h2>
+    <div class="items">
     {% for project in site.projects %}
-    <h3>
-        <a href="{{ project.url }}">
-            {{ project.title }}
-        </a>
-    </h3>
-    <p>{{ project.content | markdownify }}</p>
+        <div class="item">
+            <h3>
+                <a href="{{ project.url }}">
+                    {{ project.title }}
+                </a>
+            </h3>
+            <p>{{ project.content | markdownify }}</p>
+        </div>
     {% endfor %}
+    </div>
 {% endif %}
