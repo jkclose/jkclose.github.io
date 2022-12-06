@@ -12,6 +12,12 @@ body {
 	min-height: 100vh;
 	flex-direction: column;
 
+	> header {
+		padding-top: $spacer * 2;
+		padding-bottom: $spacer * 2;
+		border-bottom: 1px solid $gray-900;
+	}
+
 	> main {
 		position: relative;
 		flex: 1;
@@ -19,6 +25,8 @@ body {
 	}
 
 	> footer {
+		padding-top: $spacer * 2;
+		padding-bottom: $spacer * 2;
 		background: $gray-900;
 		color: $white;
 	}
@@ -27,6 +35,8 @@ body {
 /* loop based display */
 .items {
 	@include make-row();
+	margin-top: $spacer * 2;
+	margin-bottom: $spacer * 2;
 
 	.item {
 		@include make-col-ready();
