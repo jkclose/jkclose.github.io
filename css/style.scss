@@ -111,7 +111,34 @@ body {
 				text-transform: uppercase;
 				font-stretch: 85%;
 			}
+			a {
+				color: $link-color;
+				text-decoration: none;
+				margin-right: 1.5rem;
+				display: inline-flex;
+				align-items: baseline;
+				font-size: 0.6875rem;
+				font-weight: 600;
+				line-height: 1.5;
+				letter-spacing: 0.08375em;
+				outline: none;
+				text-transform: uppercase;
+
+				&:after {
+					content: "f08b";
+					display: inline-block;
+					font-style: normal;
+					font-variant: normal;
+					text-rendering: auto;
+					-webkit-font-smoothing: antialiased;
+					font-family: $font-awesome;
+					font-weight: 400;
+					font-size: 0.875em;
+					margin-left: 0.75em;
+				}
+			}
 		}
+
 		footer {
 			.project_cats {
 				font-style: italic;
