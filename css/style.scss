@@ -94,6 +94,11 @@ body {
 
 	.item {
 		@include make-col-ready();
-		@include make-col(1,2);
+		@include make-col(1,1);
+		margin-bottom: $grid-gutter-width;
+
+		@include media-breakpoint-up(md) {
+			@include make-col(1,2);
+		}
 	}
 }
