@@ -14,4 +14,5 @@ defaults:
 collections:
   projects:
     output: true
+    sort_by: client
 
