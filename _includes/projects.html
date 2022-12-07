@@ -1,16 +1,20 @@
 {% if site.projects %}
 <div class="items">
     {% for project in site.projects %}
-    <div class="item">
-        <h3>
-            <a href="{{ project.url }}">
+    <article class="item">
+        <header>
+            <h3>
                 {{ project.title }}
-            </a>
-        </h3>
-        <p>{{ project.project-url }}</p>
-        <p>{{ project.categories }}</p>
-        <p>{{ project.content | markdownify }}</p>
-    </div>
+            </h3>
+        </header>
+        <section>
+            <p>{{ project.content | markdownify }}</p>
+        </section>
+        <footer>
+            <p>{{ project.project-url }}</p>
+            <p>{{ project.categories }}</p>
+        </footer>
+    </article>
     {% endfor %}
 </div>
 {% endif %}
