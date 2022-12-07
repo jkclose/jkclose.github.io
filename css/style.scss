@@ -67,9 +67,9 @@ body {
 	> header {
 		padding-top: $spacer * 2;
 		padding-bottom: $spacer * 2;
-		border-bottom: 1px solid $gray-600;
+		border-bottom: 1px solid $gray-400;
 		margin-bottom: $spacer * 2;
-		box-shadow: 0 -4px 20px 0 rgba($gray-600, 0.5);
+		box-shadow: 0 -4px 20px 0 rgba($gray-400, 0.5);
 	}
 
 	> main {
@@ -105,6 +105,7 @@ body {
 			h3 {
 				font-size: 1.5rem;
 				font-weight: 600;
+				color: $primary;
 			}
 			h4 {
 				font-size: 1.125rem;
