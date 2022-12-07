@@ -1,20 +1,22 @@
 {% if site.projects %}
-<h1>Projects</h1>
-<div class="items">
-    {% for project in site.projects %}
-    <article class="item">
-        <header>
-            <h2>{{ project.title }}</h2>
-            <h4>{{ project.client }}</h4>
-            <div class="project_link"><a target="_blank" href="{{ project.project-url }}">View project</a></div>
-        </header>
-        <section>
-            <div>{{ project.content | markdownify }}</div>
-        </section>
-        <footer>
-            <div class="project_cats">{{ project.categories | join: ', ' }}</div>
-        </footer>
-    </article>
-    {% endfor %}
-</div>
+<section>
+    <h1>Projects</h1>
+    <div class="items">
+        {% for project in site.projects %}
+        <article class="item">
+            <header>
+                <h2>{{ project.title }}</h2>
+                <h4>{{ project.client }}</h4>
+                <div class="project_link"><a target="_blank" href="{{ project.project-url }}">View project</a></div>
+            </header>
+            <section>
+                <div>{{ project.content | markdownify }}</div>
+            </section>
+            <footer>
+                <div class="project_cats">{{ project.categories | join: ', ' }}</div>
+            </footer>
+        </article>
+        {% endfor %}
+    </div>
+</section>
 {% endif %}
