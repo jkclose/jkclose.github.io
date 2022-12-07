@@ -1,5 +1,5 @@
 ---
-title: Custom Site
+title: Custom website
 client: Cardinal Cribs
 project-url: https://cardinalcribs.com/
 categories: [Headless WordPress, WordPress, jQuery]

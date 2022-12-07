@@ -100,5 +100,18 @@ body {
 		@include media-breakpoint-up(md) {
 			@include make-col(1,2);
 		}
+
+		header {
+			h3 {
+				font-size: 1.5rem;
+				font-weight: 600;
+			}
+			h4 {
+				font-size: 1.125rem;
+				text-transform: uppercase;
+				font-stretch: 80%;
+				font-weight: 300;
+			}
+		}
 	}
 }

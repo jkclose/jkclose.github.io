@@ -2,7 +2,7 @@
 title: Custom Calculator
 client: OpenDoor Health Services
 project-url: https://www.opendoorhs.org/general-medical-fees-discounts
-categories: [jquery, SquareSpace]
+categories: [jQuery, SquareSpace]
 ---
 
-Created a dynamic calculator to determine sliding fees.
+Created a dynamic calculator to determine sliding fees. Users can enter data and instantly get an estimated discount value.
