@@ -6,13 +6,16 @@
             <h3>
                 {{ project.title }}
             </h3>
+            <h4>
+                {{ project.client }}
+            </h4>
         </header>
         <section>
-            <p>{{ project.content | markdownify }}</p>
+            <div>{{ project.content | markdownify }}</div>
         </section>
         <footer>
-            <p>{{ project.project-url }}</p>
-            <p>{{ project.categories }}</p>
+            <div class="project_link"><a href="{{ project.project-url }}">View project</a></div>
+            <div class="project_cats">{{ project.categories }}</div>
         </footer>
     </article>
     {% endfor %}

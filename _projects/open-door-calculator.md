@@ -1,7 +1,8 @@
 ---
-title: OpenDoor Health Services Custom Calculator
+title: Custom Calculator
+client: OpenDoor Health Services
 project-url: https://www.opendoorhs.org/general-medical-fees-discounts
 categories: jquery, SquareSpace
 ---
 
-This is the content.
+Created a dynamic calculator to determine sliding fees.
