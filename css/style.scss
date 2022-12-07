@@ -67,7 +67,9 @@ body {
 	> header {
 		padding-top: $spacer * 2;
 		padding-bottom: $spacer * 2;
-		border-bottom: 1px solid $gray-900;
+		border-bottom: 1px solid $gray-600;
+		margin-bottom: $spacer * 2;
+		box-shadow: 0 -4px 20px 0 rgba($gray-600, 0.5);
 	}
 
 	> main {
