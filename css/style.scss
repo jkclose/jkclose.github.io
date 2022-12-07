@@ -89,7 +89,14 @@ body {
 article {
 
 	h1 {
-		border-bottom: 1px solid $gray-400;
+
+		&:after {
+			content: "";
+			position: relative;
+			display: block;
+			width: 100%;
+			border-bottom: 1px solid $gray-400;
+		}
 	}
 
 	section {
