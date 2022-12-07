@@ -89,14 +89,8 @@ body {
 article {
 
 	h1 {
-
-		&:after {
-			content: "";
-			position: relative;
-			display: block;
-			width: 100%;
-			border-bottom: 1px solid $gray-400;
-		}
+		padding-bottom: $spacer * 0.5;
+		border-bottom: 1px solid $gray-400;
 	}
 
 	section {
@@ -121,7 +115,7 @@ article {
 		}
 
 		header {
-			margin-bottom: $spacer;
+			margin-bottom: $spacer * 0.5;
 
 			h2 {
 				font-size: 1.5rem;
