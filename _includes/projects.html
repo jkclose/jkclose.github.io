@@ -1,9 +1,10 @@
 {% if site.projects %}
 <div class="items">
+    <h1>Projects</h1>
     {% for project in site.projects %}
     <article class="item">
         <header>
-            <h3>{{ project.title }}</h3>
+            <h2>{{ project.title }}</h2>
             <h4>{{ project.client }}</h4>
             <div class="project_link"><a target="_blank" href="{{ project.project-url }}">View project</a></div>
         </header>
