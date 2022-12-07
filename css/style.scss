@@ -126,13 +126,11 @@ body {
 				text-transform: uppercase;
 
 				&:after {
-					content: "f08b";
+					content: "f061";
 					display: inline-block;
-					font-style: normal;
-					font-variant: normal;
+					font: var(--fa-font-solid);
 					text-rendering: auto;
 					-webkit-font-smoothing: antialiased;
-					font-family: $font-awesome;
 					font-weight: 400;
 					font-size: 0.875em;
 					margin-left: 0.75em;
