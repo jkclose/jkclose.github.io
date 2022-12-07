@@ -8,13 +8,7 @@
             </a>
         </h3>
         <p>{{ project.project-url }}</p>
-        {% if project.tags != null %}
-        <b>Tags: </b>
-        {% assign projectTags = site.data.tags.allowed-tags %}
-        {% for tag in project.tags %}
-        {{tag}}
-        {% endfor %}
-        {% endif %}
+        <p>{{ project.categories }}</p>
         <p>{{ project.content | markdownify }}</p>
     </div>
     {% endfor %}
