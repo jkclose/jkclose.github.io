@@ -100,6 +100,21 @@ article {
 }
 
 /* loop based display */
+.list-items {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	li {
+		display: inline-block;
+
+		&:not(:last-child):after {
+			content: ", ";
+			position: relative;
+		}
+	}
+}
+
 .items {
 	@include make-row();
 	margin-top: $spacer * 2;
