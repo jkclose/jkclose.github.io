@@ -110,6 +110,7 @@ article {
 
 	li {
 		display: inline-block;
+		font-style: italic;
 
 		&:not(:last-child):after {
 			content: ",\00a0";
