@@ -90,7 +90,7 @@ body {
 article {
 
 	header {
-		margin-bottom: $spacer;
+		margin-bottom: $spacer * 2;
 
 		h1 {
 			padding-bottom: $spacer * 0.5;
@@ -103,7 +103,7 @@ article {
 	}
 
 	aside {
-		margin-top: $spacer;
+		margin-top: $spacer * 2;
 	}
 }
 
