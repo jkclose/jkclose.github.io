@@ -89,9 +89,13 @@ body {
 
 article {
 
-	h1 {
-		padding-bottom: $spacer * 0.5;
-		border-bottom: 1px solid $gray-400;
+	header {
+		margin-bottom: $spacer;
+
+		h1 {
+			padding-bottom: $spacer * 0.5;
+			border-bottom: 1px solid $gray-400;
+		}
 	}
 
 	section {
