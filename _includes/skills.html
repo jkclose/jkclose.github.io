@@ -1,0 +1,11 @@
+{% if site.data.skills %}
+<aside>
+    <h4>Languages</h4>
+    <ul class="items">
+        {% for skill in site.data.skills %}
+        <li class="item">
+            {{ project.label }}
+        {% endfor %}
+    </ul>
+</aside>
+{% endif %}
