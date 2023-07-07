@@ -1,7 +1,8 @@
 - label: HTML 5
-- label: WordPress
-- label: JavaScript
-- label: CSS/SCSS
 - label: PHP
+- label: JavaScript/jQuery
+- label: CSS/SCSS
+- label: Git
+- label: WordPress
 - label: WordPress Themes
 - label: Wordpress Plugins
