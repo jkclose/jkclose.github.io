@@ -1,5 +1,6 @@
 url: jeremyclose.me
-title: Jeremy Close | Web Development
+title: Jeremy Close
+description: Web Development & Management
 sass:
   sass_dir: css
   style:    compressed
