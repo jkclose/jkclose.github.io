@@ -8,8 +8,13 @@
         <article class="item">
             <header>
                 <h2>{{ project.title }}</h2>
+                {% if project.agency %}
+                <div class="project_agency"><span>Agency:</span> {{ project.agency }}</div>
+                {% endif %}
                 <h4>{{ project.client }}</h4>
+                {% if project.project-url %}
                 <div class="project_link"><a target="_blank" href="{{ project.project-url }}">View project</a></div>
+                {% endif %}
             </header>
             <section>
                 <div>{{ project.content | markdownify }}</div>

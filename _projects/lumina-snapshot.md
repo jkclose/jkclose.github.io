@@ -1,6 +1,7 @@
 ---
 title: Custom WordPress Theme
 client: Lumina Foundation
+agency: IronGate Creative
 project-url: https://snapshot.luminafoundation.org/
 categories: [WordPress, Theme]
 ---

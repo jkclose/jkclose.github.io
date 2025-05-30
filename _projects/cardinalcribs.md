@@ -1,7 +1,6 @@
 ---
-title: Custom Website
+title: Custom Static Hybrid Website
 client: Cardinal Cribs
-project-url: https://cardinalcribs.com/
 categories: [Headless WordPress, WordPress, jQuery]
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Custom WordPress Plugin
 client: Community Library of Sunbury, Ohio
+agency: IronGate Creative
 project-url: https://www.yourcl.org/
 categories: [WordPress, Plugin]
 ---
